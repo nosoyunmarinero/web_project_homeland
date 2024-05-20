@@ -9,7 +9,7 @@
   color: white;
 
   max-width: 984px;
-  max-height: 983px;
+  height: auto;
   width: 100%;
 }
 
@@ -18,7 +18,6 @@
   margin-top: 91px;
 
   max-width: 720px;
-  max-height: 200px;
 
   font-family: "inter", Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -31,7 +30,6 @@
   margin-top: 32px;
 
   max-width: 720px;
-  height: 72px;
 
   font-family: "inter", Arial, Helvetica, sans-serif;
   font-weight: normal;
@@ -48,7 +46,6 @@
 @media screen and (max-width: 768px) {
   .lead__title {
     max-width: 530px;
-    max-height: 158px;
 
     margin-top: 90px;
     font-size: 75px;
@@ -57,7 +54,7 @@
   }
   .lead__subtitle {
     max-width: 720px;
-    max-height: 72px;
+
     margin-top: 25px;
 
     font-size: 30px;
@@ -71,7 +68,6 @@
 @media screen and (max-width: 320px) {
   .lead__title {
     max-width: 228px;
-    max-height: 88px;
 
     margin-top: 50px;
 
@@ -80,7 +76,6 @@
   }
   .lead__subtitle {
     max-width: 288px;
-    max-height: 40px;
 
     margin-top: 16px;
 
