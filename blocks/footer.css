@@ -3,7 +3,6 @@
   max-width: 194px;
   height: 16px;
 
-  padding-top: 92px;
   margin: 0 auto 24px;
 
   color: white;
@@ -16,8 +15,6 @@
 @media screen and (max-width: 768px) {
   .footer {
     height: 16px;
-
-    padding-top: 88px;
   }
 }
 
@@ -26,7 +23,5 @@
     height: 14px;
 
     line-height: 14px;
-
-    padding-top: 64px;
   }
 }
