@@ -26,17 +26,25 @@ En este proyecto se utilizaron las siguientes tecnologías y técnicas:
 El sitio se adapta dinámicamente a diversas resoluciones para ofrecer una experiencia óptima en cualquier dispositivo.
 
 **1280px:**
+---
+
 ![resolucion 1280px](https://github.com/nosoyunmarinero/web_project_homeland/assets/166479865/f22ed42d-3e04-4c08-b814-942fe60ee17c)
 
 
 **768px:**
+---
+
 ![resolucion 768px](https://github.com/nosoyunmarinero/web_project_homeland/assets/166479865/610eae1e-5e87-45dd-a9a9-0488ac53b5bf)
 
 **320px:**
+---
+
 ![resolucion 320px](https://github.com/nosoyunmarinero/web_project_homeland/assets/166479865/184f43d6-b069-4cf5-811d-5c7841622995)
 
 ### 2. Uso del Hover
 Se aplicó el efecto hover a imágenes y botones para mejorar la interactividad.
+
+---
 
 ![Hover](https://github.com/nosoyunmarinero/web_project_homeland/assets/166479865/5be6af22-4098-426c-8041-ae5bb0c89401)
 
@@ -46,7 +54,10 @@ Se usó la propiedad `linear-gradient` para dar un efecto de degradado a nuestro
 
 
 **Imagen y boton con Box-shadow y Linear Gradient:**
-![Elemento 1 con Box-shadow](ruta/a/imagenBoxShadow1.png)
+
+---
+
+![Shadow](https://github.com/nosoyunmarinero/web_project_homeland/assets/166479865/86ebd321-07fd-4096-a43f-45950178248f)
 
 
 
