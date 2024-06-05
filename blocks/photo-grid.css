@@ -8,6 +8,7 @@
 
 .photo-grid_item {
   width: 100%;
+  margin: 0;
   object-fit: fill;
 }
 
