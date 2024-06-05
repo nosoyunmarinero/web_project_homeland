@@ -20,6 +20,10 @@
 
     gap: 16px;
   }
+
+  .photo-grid_item {
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -41,5 +45,9 @@
     grid-template-columns: 1fr;
 
     gap: 12px;
+  }
+
+  .photo-grid_item {
+    margin: 0;
   }
 }

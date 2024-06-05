@@ -5,7 +5,7 @@
   grid-row-gap: 80px;
 }
 
-.places__place {
+.place {
   display: grid;
   margin: 0;
   grid-column-gap: 40px;
@@ -18,7 +18,7 @@
     "button paragraphs";
 }
 
-.places__place_title {
+.place__title {
   grid-area: title;
   margin: 0;
   font-weight: bold;
@@ -26,21 +26,21 @@
   line-height: 76px;
 }
 
-.places__place_image {
+.place__image {
   grid-area: image;
   width: 100%;
   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
-.places__place_image:hover {
+.place__image:hover {
   opacity: 0.5;
 }
 
-.places__place_website {
+.place__website {
   grid-area: website;
 }
 
-.places__website_heading {
+.place__website_heading {
   color: #aaaaaa;
   font-weight: 12;
   font-size: 12px;
@@ -49,25 +49,25 @@
   padding-bottom: 8px;
 }
 
-.places__website_artist {
+.place__website_artist {
   font-size: 18px;
   line-height: 22px;
   margin: 0;
 }
 
-.places__place_paragraphs {
+.place__paragraphs {
   grid-area: paragraphs;
   font-weight: normal;
   font-size: 18px;
   line-height: 29.34px;
   grid-template-columns: 1fr;
 }
-.places__place_paragraph {
+.place__paragraph {
   margin: 0;
   padding-bottom: 25px;
 }
 
-.places__place_button {
+.place__button {
   grid-area: button;
   max-width: 289px;
   padding: 13px 20px;
@@ -82,7 +82,7 @@
   align-self: baseline;
 }
 
-.places__place_button:hover {
+.place__button:hover {
   background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
 }
 
@@ -92,30 +92,30 @@
     margin: 0 auto 90px auto;
     grid-row-gap: 72px;
   }
-  .places__place {
+  .place {
     grid-column-gap: 28px;
     grid-row-gap: 48px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 68px 340px auto;
   }
 
-  .places__place_title {
+  .place__title {
     font-size: 42px;
     line-height: 46px;
   }
 
-  .places__place_paragraphs {
+  .place__paragraphs {
     font-size: 16px;
     line-height: 26.08px;
   }
 
-  .places__place_website {
+  .place__website {
     white-space: nowrap;
   }
 }
 
 @media screen and (max-width: 660px) {
-  .places__place_website {
+  .place__website {
     white-space: normal;
   }
 }
@@ -125,7 +125,7 @@
     max-width: 500px;
     grid-row-gap: 130px;
   }
-  .places__place {
+  .place {
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 35px;
     grid-template-rows: auto auto auto;
@@ -135,17 +135,17 @@
       "paragraphs paragraphs"
       "button button";
   }
-  .places__place_button {
+  .place__button {
     margin: 0 auto 0 auto;
   }
 
-  .places__place_image {
+  .place__image {
     box-shadow: none;
   }
 }
 
 @media screen and (max-width: 390px) {
-  .places__place {
+  .place {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
     grid-template-areas:
@@ -155,7 +155,7 @@
       "paragraphs"
       "button";
   }
-  .places__place_button {
+  .place__button {
     margin: 0 auto 0 auto;
   }
 }
@@ -166,7 +166,7 @@
     margin: 0 auto 65px auto;
     grid-row-gap: 50px;
   }
-  .places__place {
+  .place {
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
@@ -178,21 +178,21 @@
       "button";
   }
 
-  .places__place_title {
+  .place__title {
     font-size: 32px;
     line-height: 35px;
     margin: 0 16px 0 16px;
   }
 
-  .places__place_paragraphs {
+  .place__paragraphs {
     margin: 0 16px 0 16px;
   }
 
-  .places__place_website {
+  .place__website {
     margin: 0 16px 0 16px;
   }
 
-  .places__place_button {
+  .place__button {
     margin: 0 16px 0 16px;
     font-size: 14px;
     line-height: 16.94px;
