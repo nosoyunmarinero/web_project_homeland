@@ -42,7 +42,7 @@
   align-self: end;
 }
 
-.place__website_heading {
+.places__place_website-heading {
   color: #aaaaaa;
   font-weight: 12;
   font-size: 12px;
@@ -51,7 +51,7 @@
   padding-bottom: 8px;
 }
 
-.place__website_artist {
+.places__place_website-artist {
   font-size: 18px;
   line-height: 22px;
   margin: 0;
