@@ -34,7 +34,7 @@
   align-self: end;
 }
 
-.website__heading {
+.place__website_heading {
   color: #aaaaaa;
   font-weight: 12;
   font-size: 12px;
@@ -43,7 +43,7 @@
   padding-bottom: 8px;
 }
 
-.website__artist {
+.place__website_artist {
   font-size: 18px;
   line-height: 22px;
   margin: 0;
